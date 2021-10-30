@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <title>Weather</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -27,9 +31,9 @@
             use Date(df * 1000).toLocaleTimeString()   to have it show with just the time and not date and time
         -->
       <form>
-        <input name="search" id="weather-search" type="text" placeholder=" ">
-        <label for="weather-search"> Enter location </label>
-        <button type="button">Search</button>
+        <input name="search" id="weather-search" type="text" placeholder="Enter location">
+        <label for="weather-search"></label>
+        <button>Search</button>
       </form>
     </main>
     <script src="index.js"></script>
